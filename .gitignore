@@ -27,6 +27,4 @@ coverage/
 # misc
 .eslintcache
 .cache/
-
-# neon
-.neon_local
+.neon_local/
