@@ -1,2 +1,32 @@
 node_modules
 .env
+
+# dependencies
+node_modules/
+
+# local environment files
+.env
+.env.development
+.env.production
+
+# runtime logs
+logs/
+*.log
+
+# editor directories and metadata
+.vscode/
+.idea/
+.DS_Store
+
+# build / output
+dist/
+build/
+coverage/
+.nyc_output/
+
+# misc
+.eslintcache
+.cache/
+
+# neon
+.neon_local

@@ -1,0 +1,25 @@
+# Dependencies — reinstalled inside the image via npm ci
+node_modules
+
+# Version control
+.git
+.gitignore
+
+# Environment files — injected at runtime, never baked into images
+.env
+.env.*
+
+# Neon Local branch metadata
+.neon_local
+
+# Runtime logs
+logs
+
+# Drizzle migration snapshots (schema files are copied; meta is generated)
+drizzle/meta
+
+# Editor / OS artefacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
